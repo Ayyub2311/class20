@@ -1,0 +1,84 @@
+.svetofor {
+  margin: 0px auto;
+  background: rgb(39, 34, 34);
+  width: 100px;
+  border: 5px solid rgb(36, 33, 33);
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px auto;
+}
+.green {
+  background: black;
+}
+.yellow {
+  background: black;
+}
+.red {
+  background: black;
+  animation: blink 10s linear infinite;
+}
+.stick {
+  margin: 0 auto;
+  background: rgb(28, 25, 25);
+  height: 100px;
+  width: 10px;
+}
+.visor {
+  width: 120px;
+  height: 30px;
+  background: rgb(34, 32, 32);
+  margin: 0 auto;
+  border-radius: 100px 100px 0 0;
+}
+
+.grass {
+  width: 100%;
+  height: 50px;
+  background: green;
+}
+
+/* .clouds{
+    width: 100%;
+    height: 200px;
+    background: skyblue;  
+} */
+
+body {
+  background-image: url(sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dirt {
+  max-width: 100%;
+  width: 100%;
+}
+@keyframes blink {
+  0% {
+    background: red;
+  }
+  25% {
+    background: black;
+  }
+  50% {
+    background: yellow;
+  }
+  75% {
+    background: black;
+  }
+  90% {
+    background: green;
+  }
+  100% {
+    background: black;
+  }
+}
+a {
+  font-size: 100px;
+  color: black;
+}
+
+
